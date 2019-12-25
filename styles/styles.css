@@ -1,0 +1,44 @@
+:root {
+  --font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+.page {
+  font-family: var(--font-family);
+}
+.main-sign {
+  font-size: 14px;
+  color: #b4ad9e;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.main-title {
+  font-size: 30px;
+  color: #626262;
+}
+.main-blog {
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+}
+.main-button {
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+}
+
+.link {
+  text-decoration: none;
+  color: #626262;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.link:hover,
+:focus {
+  color: #03a9f4;
+}
+li {
+  list-style-type: none;
+}
